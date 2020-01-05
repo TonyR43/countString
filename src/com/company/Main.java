@@ -27,6 +27,7 @@ public class Main {
             }
             System.out.println("Vowels: " + vowels);
             System.out.println("Consonants: " + consonants);
+
             System.out.println("Digits: " + digits);
             System.out.println("White spaces: " + spaces);
         }
