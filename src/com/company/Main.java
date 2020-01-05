@@ -25,10 +25,11 @@ public class Main {
                     ++spaces;
                 }
             }
+            int totalChar = vowels + consonants + digits + spaces;
             System.out.println("Vowels: " + vowels);
             System.out.println("Consonants: " + consonants);
-
             System.out.println("Digits: " + digits);
             System.out.println("White spaces: " + spaces);
+            System.out.println("Total Characters : " + totalChar);
         }
     }
